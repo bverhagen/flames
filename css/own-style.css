@@ -7,3 +7,30 @@ iframe#map {
 	height: 25em;
 	border: 0;
 }
+
+.openingstijden {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dag {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding: 8px 0;
+  border-bottom: 1px dotted #eee;
+}
+
+.gesloten {
+  color: #999;
+}
+
+.reservation-info {
+  margin-top: 30px;
+  text-align: center;
+}
